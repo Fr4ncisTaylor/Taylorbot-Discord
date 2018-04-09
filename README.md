@@ -1,5 +1,5 @@
 # Taylor Robot For Discord
-<p align="center"><img src="images.png" alt="Taylor"></p>
+<p align="center"><img src="images.jpg" alt="Taylor"></p>
 <p align="center"><a href="https://t.me/RoboTaylor">Suporte</a></p>
 <p align="center">⚜️<strong>Versão 1.0.0 | Python 3.6+</strong></p>
 
