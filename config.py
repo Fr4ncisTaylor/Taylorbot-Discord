@@ -166,8 +166,8 @@ api = {
 }
 
 keys = {
-	'youtube' : 'AIzaSyDqD6dY2EGTMzNPTEU3YrITMUdA1OgvlPo',
-	'print'   : '7ffc8d',
+	'youtube' : '_youtube_key',
+	'print'   : 'screenshotmachinekey',
 }
 ########## [ colors ]
 cor = {
