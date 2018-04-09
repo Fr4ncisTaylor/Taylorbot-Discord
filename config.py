@@ -14,7 +14,7 @@ requeriment = 'discord.py redis pyfiglet requests python-aiml speedtest-cli' # D
 #########[ INFORMATION SORCE] # [ DONT REPLACE ]
 __version__ = '1.0.0 [Beta]'
 __author__ 	= '@FrancisTaylor'
-__github__ 	= 'https://github.com/Francis-Taylor'
+__github__ 	= 'https://github.com/francis-taylor/Taylorbot-Discord/'
 
 #########[ DB ]
 try:
