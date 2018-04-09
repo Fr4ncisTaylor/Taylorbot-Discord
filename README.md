@@ -5,7 +5,7 @@
 
 * * *
 ## Informações
-Taylor foi desenvolvido com a Biblioteca Discord.py.
+Taylor foi desenvolvido com a Biblioteca [Discord.py](https://github.com/Rapptz/discord.py).
 
 * * *
 * * *
