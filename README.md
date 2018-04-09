@@ -34,6 +34,10 @@ Execute a instalação:
 * `python install.py`
 
 * * *
+## Desinstalação
+`python uninstall.py`
+
+* * *
 ## Iniciando o bot
 
 * `python bot.py`
