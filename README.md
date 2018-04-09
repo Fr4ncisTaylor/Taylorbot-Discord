@@ -8,9 +8,12 @@
 Taylor foi desenvolvido com a Biblioteca [Discord.py](https://github.com/Rapptz/discord.py).
 
 * * *
-* * *
+
 
 ## Configuração
+
+* Crie seu aplicativo na [api de desenvolvimento](https://discordapp.com/developers/applications/me)
+
 * Abra o arquivo `config.py` e insira o seu ID em `sudo = '_owner_id'`.
 
 * Insira o token do bot em `TOKEN =  '_aplication_token'`.
