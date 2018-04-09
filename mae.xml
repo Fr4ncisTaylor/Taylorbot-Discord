@@ -1,0 +1,17 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>TAYLOR</pattern>
+        <template>
+            <learn>ia/*.aiml</learn>
+        </template>
+    </category>
+
+    <category>
+        <pattern>F</pattern>
+        <template>
+            <learn>/root/api/cerebro/feminino/*.aiml</learn>
+        </template>
+    </category>
+
+</aiml>
