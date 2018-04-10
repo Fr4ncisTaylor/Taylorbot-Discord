@@ -13,7 +13,7 @@ kernel.respond("taylor")
 if platform.system() == 'Linux':
 	clear = 'clear'
 else:
-	clear = 'clear'
+	clear = 'cls'
 
 @bot.event
 async def on_ready():

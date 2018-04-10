@@ -8,7 +8,7 @@ import  os, sys,  time, platform
 if platform.system() == 'Linux':
 	clear = 'clear'
 else:
-	clear = 'clear'
+	clear = 'cls'
 
 try:
 	import pyfiglet
