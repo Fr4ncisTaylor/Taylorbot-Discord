@@ -14,7 +14,7 @@ requeriment = 'discord.py redis pyfiglet requests python-aiml speedtest-cli' # D
 #########[ INFORMATION SORCE] # [ DONT REPLACE ]
 __version__ = '1.0.0 [Beta]'
 __author__ 	= '@FrancisTaylor'
-__github__ 	= 'https://github.com/francis-taylor/Taylorbot-Discord/'
+__github__ 	= 'https://github.com/Francis-Taylor'
 
 #########[ DB ]
 try:
@@ -166,8 +166,8 @@ api = {
 }
 
 keys = {
-	'youtube' : '_youtube_key',
-	'print'   : 'screenshotmachinekey',
+	'youtube' : 'AIzaSyDqD6dY2EGTMzNPTEU3YrITMUdA1OgvlPo',
+	'print'   : '7ffc8d',
 }
 ########## [ colors ]
 cor = {

@@ -4,16 +4,28 @@
 # INSTALL TAYLOR BOT SISTEM #
 #############################
 
-import config, os, sys, pyfiglet, time
+import  os, sys,  time
+try:
+	import pyfiglet
+except:
+
+	os.system('pip install pyfiglet')
+	os.system('CLS')
+	import pyfiglet
+
+__version__ = '1.0.0 [Beta]'
+__author__ 	= '@FrancisTaylor'
+__github__ 	= 'https://github.com/Francis-Taylor'
+requeriment = 'discord.py redis pyfiglet requests python-aiml speedtest-cli' # DON'T USE ','
 
 def figlets():
 	#########################################
 	print('System Powered by ')				#
-	f = pyfiglet.Figlet(font=config.font)	#
+	f = pyfiglet.Figlet(font='doom')	#
 	print(f.renderText("Cybion"))			#
-	print('Author: '+config.__author__)		#
-	print('Version: '+config.__version__)   #
-	print('Git: '+ config.__github__)    	#
+	print('Author: '+__author__)		#
+	print('Version: '+__version__)   #
+	print('Git: '+ __github__)    	#
 	print('='*110+'\n')						#
 	#########################################
 
@@ -22,16 +34,18 @@ def figlets():
 os.system('CLS')
 figlets()
 
+requeriment = 'discord.py redis pyfiglet requests python-aiml speedtest-cli' # DON'T USE ','
+
 pergunta = input('\nDo you want to start the installation? [Y/N]\n>>> ')
 
 if pergunta.lower() != 'y':
 	sys.exit()
 
 else:
-	print('\nStarting!...')
+	print('\nStarting!...\n')
 	
-	print('Listing Modules...')
-	modules = config.requeriment
+	print('Listing Modules...\n')
+	modules = requeriment
 	print(modules.replace(' ','\n'))
 	
 	print('\nRunning the Pip to install modules...')

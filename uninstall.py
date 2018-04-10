@@ -3,21 +3,30 @@
 #############################
 # UNINSTALL TAYLOR BOT SISTEM #
 #############################
+import  os, sys,  time
+try:
+	import pyfiglet
+except:
 
-import config, os, sys, pyfiglet, time
+	os.system('pip install pyfiglet')
+	os.system('CLS')
+	import pyfiglet
+
+__version__ = '1.0.0 [Beta]'
+__author__ 	= '@FrancisTaylor'
+__github__ 	= 'https://github.com/Francis-Taylor'
+requeriment = 'discord.py redis pyfiglet requests python-aiml speedtest-cli' # DON'T USE ','
 
 def figlets():
 	#########################################
 	print('System Powered by ')				#
-	f = pyfiglet.Figlet(font=config.font)	#
+	f = pyfiglet.Figlet(font='doom')	#
 	print(f.renderText("Cybion"))			#
-	print('Author: '+config.__author__)		#
-	print('Version: '+config.__version__)   #
-	print('Git: '+ config.__github__)    	#
+	print('Author: '+__author__)		#
+	print('Version: '+__version__)   #
+	print('Git: '+ __github__)    	#
 	print('='*110+'\n')						#
 	#########################################
-
-
 
 os.system('CLS')
 figlets()
@@ -31,7 +40,7 @@ else:
 	print('\nStarting!...')
 	
 	print('Listing Modules...\n')
-	modules = config.requeriment
+	modules = requeriment
 	print(modules.replace(' ','\n'))
 	
 	print('\nRunning the Pip to uninstall modules...')
