@@ -4,13 +4,19 @@
 # INSTALL TAYLOR BOT SISTEM #
 #############################
 
-import  os, sys,  time
+import  os, sys,  time, platform
+
+if platform.system() == 'Linux':
+	clear = 'clear'
+else:
+	clear = 'clear'
+
 try:
 	import pyfiglet
 except:
 
 	os.system('pip install pyfiglet')
-	os.system('CLS')
+	os.system(clear)
 	import pyfiglet
 
 __version__ = '1.0.0 [Beta]'
@@ -31,7 +37,7 @@ def figlets():
 
 
 
-os.system('CLS')
+os.system(clear)
 figlets()
 
 requeriment = 'discord.py redis pyfiglet requests python-aiml speedtest-cli' # DON'T USE ','
@@ -68,7 +74,7 @@ else:
 		time.sleep(1)
 		print(1)
 		time.sleep(1)
-		os.system('CLS')
+		os.system(clear)
 		os.system('python bot.py')
 
 

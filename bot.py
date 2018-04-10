@@ -1,5 +1,5 @@
 #-*- coding:utf-8 -*-
-import discord, pyfiglet, asyncio, requests, urllib, json, os, time, sys, config, aiml, subprocess
+import discord, pyfiglet, asyncio, requests, urllib, json, os, time, sys, config, aiml, subprocess, platform
 
 bot      = discord.Client()
 db	     = config.db
@@ -10,13 +10,17 @@ kernel   = aiml.Kernel()
 kernel.learn("mae.xml")
 kernel.respond("taylor")
 
-
+if platform.system() == 'Linux':
+	clear = 'clear'
+else:
+	clear = 'clear'
 
 @bot.event
 async def on_ready():
+    os.system(clear)
     f = pyfiglet.Figlet(font=config.font)
-    f.renderText(bot.user.name)
-    print('__________________________________________________________________________________'*2)
+    print(f.renderText(bot.user.name))
+    print('_____________________________________________________________________')
     
 def keepcalmm(a,b,c):
 	if c == 'amarelo':
@@ -260,7 +264,7 @@ fuso horário:
 
 			await bot.send_message(msg.channel, 'Reiniciando')
 			
-			os.system('cls')
+			os.system(clear)
 			await bot.send_message(msg.channel, 'started');os.execl(sys.executable, sys.executable, *sys.argv)
 	
 	if texto.startswith('!tts'):

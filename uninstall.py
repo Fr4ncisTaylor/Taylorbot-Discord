@@ -3,7 +3,13 @@
 #############################
 # UNINSTALL TAYLOR BOT SISTEM #
 #############################
-import  os, sys,  time
+import  os, sys,  time, platform
+
+if platform.system() == 'Linux':
+	clear = 'clear'
+else:
+	clear = 'clear'
+
 try:
 	import pyfiglet
 except:
