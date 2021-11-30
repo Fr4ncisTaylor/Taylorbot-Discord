@@ -1,5 +1,5 @@
 <p align="center"><img src="images.jpg" alt="Taylor" width='200' height='200'></p>
-<p align="center">⚜️<strong>Versão 1.0.0 | Python 3.9 +</strong></p>
+<p align="center"><strong>Version 1.0.1 | Python 3.9 +</strong></p>
 
 * * *
 ## Information
