@@ -23,8 +23,8 @@ except:
 	print('Erro no redis, certifique-se se você tem o Redis-cli instalado.')
 	sys.exit()
 #########[ BOT CONFIG ]
-TOKEN 			= 'NDMyOTg5NjU0Nzk5NjEzOTYy.WsvDCg.duhYGxaiR8Fo_t5eF9l2_mAtbFM' # Replace for Aplication Token
-APLICATION_ID 	= '432989654799613962' # Replace for a ID of aplication
+TOKEN 			= '_aplicationToken_' # Replace for Aplication Token
+APLICATION_ID 	= '_aplicationId_'    # Replace for a ID of aplication
 
 #########[ ADMNISTRATION ]
 sudo  = '_owner_id' # Replace for you ID.
