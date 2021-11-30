@@ -1,48 +1,42 @@
-# Taylor Robot For Discord
-<p align="center"><img src="images.jpg" alt="Taylor"></p>
-<p align="center"><a href="https://t.me/RoboTaylor">Suporte</a></p>
-<p align="center">⚜️<strong>Versão 1.0.0 | Python 3.6+</strong></p>
+<p align="center"><img src="images.jpg" alt="Taylor" width='200' height='200'></p>
+<p align="center">⚜️<strong>Versão 1.0.0 | Python 3.9 +</strong></p>
 
 * * *
-## Informações
-Taylor foi desenvolvido com a Biblioteca [Discord.py](https://github.com/Rapptz/discord.py).
+## Information
+Taylor was developed with the Library [Discord.py](https://github.com/Rapptz/discord.py).
 
 * * *
 
 
-## Configuração
+## Configuration
 
-* Crie seu aplicativo na [api de desenvolvimento](https://discordapp.com/developers/applications/me)
+* Build your app in [development api](https://discordapp.com/developers/applications/me)
 
-* Abra o arquivo `config.py` e insira o seu ID em `sudo = '_owner_id'`.
+* Open the `config.py` file and enter your Discord user ID in `sudo = '_owner_id'`.
 
-* Insira o token do bot em `TOKEN =  '_aplication_token'`.
+* Enter the bot's token in `TOKEN = '_AplicationToken'`.
 
-* Coloque o ID do seu bot em `APLICATION_ID = '_aplication_id'`
+* Put your bot's ID in `APLICATION_ID = '_AplicationId'`
 
 * * *
-## Instalação
+## Installation
 
-Clone o repositório:
+Clone this repository:
 `git clone https://github.com/francis-taylor/Taylorbot-Discord`
 
-Entre no diretório:
+Enter the directory:
 `cd TaylorBot-Discord`
 
-Execute a instalação:
+Run the installation:
 
 * `python install.py`
 
 * * *
-## Desinstalação
+## Uninstallation
 `python uninstall.py`
 
 * * *
-## Iniciando o bot
+## Starting the bot
 
-* `python bot.py`
-
-### ou
-
-* `nohup python bot.py`
+* `python main.py`
 
