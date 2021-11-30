@@ -1,10 +1,7 @@
 import os
-import sys
 import json
 import time
-import urllib
 import config
-import asyncio
 import discord
 import requests
 import pyfiglet
