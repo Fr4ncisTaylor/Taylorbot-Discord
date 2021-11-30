@@ -12,8 +12,8 @@ import sys
 requeriment = 'discord.py redis pyfiglet requests python-aiml speedtest-cli' # DON'T USE ','
 
 #########[ INFORMATION SORCE] # [ DONT REPLACE ]
-__version__ = '1.0.0 [Beta]'
-__author__ 	= '@FrancisTaylor'
+__version__ = '1.0.1'
+__author__ 	= 'FrancisTaylor#5810'
 __github__ 	= 'https://github.com/Francis-Taylor'
 
 #########[ DB ]
@@ -23,8 +23,8 @@ except:
 	print('Erro no redis, certifique-se se você tem o Redis-cli instalado.')
 	sys.exit()
 #########[ BOT CONFIG ]
-TOKEN 			= '_aplication_token' # Replace for Aplication Token
-APLICATION_ID 	= '_aplication_id' # Replace for a ID of aplication
+TOKEN 			= 'NDMyOTg5NjU0Nzk5NjEzOTYy.WsvDCg.duhYGxaiR8Fo_t5eF9l2_mAtbFM' # Replace for Aplication Token
+APLICATION_ID 	= '432989654799613962' # Replace for a ID of aplication
 
 #########[ ADMNISTRATION ]
 sudo  = '_owner_id' # Replace for you ID.
@@ -66,21 +66,21 @@ class Redis:
 			return total
 ########################################### [ BETA STAGE]
 reactions = {
-	'lenny'    : "( ͡° ͜ʖ ͡°)",
+	'!lenny'    : "( ͡° ͜ʖ ͡°)",
 
-	'flip'     : "(╯°□°）╯︵ ┻━┻",
+	'!flip'     : "(╯°□°）╯︵ ┻━┻",
 
-	'shots'    : "SHOTS FIRED",
+	'!shots'    : "SHOTS FIRED",
 
-	'homo'     : "┌（┌　＾o＾）┐",
+	'!homo'     : "┌（┌　＾o＾）┐",
 
-	'shrug'    : "¯\_(ツ)_/¯",
+	'!shrug'    : "¯\_(ツ)_/¯",
 
-	'look'     : "ಠ_ಠ",
+	'!look'     : "ಠ_ಠ",
 
-	'facepalm' : "(－‸ლ)",
+	'!facepalm' : "(－‸ლ)",
 
-	'nugget'   : "chicken nugger",
+	'!nugget'   : "chicken nugger",
 
 
 }
@@ -160,14 +160,12 @@ Exemplo de uso:
 }
 ########## [ APIS ]
 api = {
-	'youtube' : 'https://www.googleapis.com/youtube/v3/search?key={}&type=video&part=snippet&maxResults=6&q={}',
-	'print'   : "http://api.screenshotmachine.com/?key={}&dimension=1024xfull&format=img&url=",
+	'print'   : "https://api.screenshotmachine.com/?key={}&url={}&dimension=1024x768",
 
 }
 
 keys = {
-	'youtube' : 'AIzaSyDqD6dY2EGTMzNPTEU3YrITMUdA1OgvlPo',
-	'print'   : '7ffc8d',
+	'print'   : '061f9b',
 }
 ########## [ colors ]
 cor = {
